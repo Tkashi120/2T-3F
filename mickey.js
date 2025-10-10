@@ -1,6 +1,9 @@
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 const contadores = document.querySelectorAll(".contador");
+const tempoObjetivo1 = new Date("2025-10-15T00:00:00");
+let tempoAtual = new Date();
+contadores[0].textContent = tempoObjetivo1;
 contadores[0]
 contadores[0].textContent = "Contagem regressiva";
 
